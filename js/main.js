@@ -70,3 +70,64 @@ console.log("The sum is", sum)
 console.log("The substraction is", susubstraction)
 console.log("The multiplication is", multiplication)
 console.log("The division is", division)
+
+
+
+
+
+
+
+// ================================================================
+
+// DATA TYPE //
+
+let Name = "Enamul houque";
+
+let Id = 00713;
+
+let Department = "web & softoware";
+
+let batch = "mern-2307";
+
+let mentor = `taufik islam`;
+
+let reguler = true;
+
+let TotalePresntClass = 0.99;
+
+ let versity = null; 
+
+
+console.log(typeof Name)
+
+console.log(typeof Id)
+
+console.log(typeof Department)
+
+console.log(typeof batch)
+
+console.log(typeof mentor)
+
+console.log(typeof reguler)
+
+console.log(typeof TotalePresntClass)
+
+console.log(typeof versity)
+
+
+// OPARETOR 
+
+let number1 = 20;
+let number2 = 30;
+let number3 = 33;
+let number4 = 40;
+number1 += 330;
+number2 -= 200
+number3 *= 100
+number4 /= 10
+
+console.log("our Increment value is :", number1);
+console.log("our Decrement value is :", number2);
+console.log("our Exponentiation value is :", number3);
+console.log("our Division value is :", number4);
+
