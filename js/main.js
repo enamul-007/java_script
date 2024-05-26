@@ -95,7 +95,7 @@
 
 // let TotalePresntClass = 0.99;
 
-//  let versity = null; 
+//  let versity = null;
 
 
 // console.log(typeof Name)
@@ -115,7 +115,7 @@
 // console.log(typeof versity)
 
 
-// // OPARETOR 
+// // OPARETOR
 
 // let number1 = 20;
 // let number2 = 30;
@@ -134,7 +134,7 @@
 
 
 
-// class 31 //
+// // class 31 //
 
 // const userInput = prompt("please input the number");
 // const covertedInput = +userInput;
@@ -152,13 +152,149 @@
 //     console.log("your are giving worng input");
 // }
 
-// even or odd //
+// // even or odd //
 
-const userInput = prompt("please input the number");
-const covertedInput = +userInput;
+// const userInput = prompt("please input the number");
+// const covertedInput = +userInput;
 
-if (covertedInput % 2 == 0 && covertedInput > 0) {
-    console.log("this is even number");
-} else if (covertedInput % 2 != 0 && covertedInput > 0) {
-    console.log("this is odd number");
+// if (covertedInput % 2 == 0 && covertedInput > 0) {
+//     console.log("this is even number");
+// } else if (covertedInput % 2 != 0 && covertedInput > 0) {
+//     console.log("this is odd number");
+// }
+
+
+
+// // switch statment //
+
+
+// const pressBtn = prompt("press the button");
+ 
+// switch (pressBtn) {
+//     case "tv":
+//         console.log("tv is on");
+//         break;
+//     case "fan":
+//         console.log("fan is one");
+//         break;
+//     case "ac":
+//         console.log("ac is on");
+//         break;
+//     case "light":
+//         console.log("light is one");
+//         break;
+//     case "door":
+//         console.log("door is open now");
+//         break;
+//     case "door close":
+//         console.log("door close now");
+//         break;
+//     default:
+//         console.log("not match");
+//         break;
+// }
+
+//
+
+
+
+const mayWeek = prompt("type date");
+switch (+mayWeek) {
+  case 1:
+    console.log("today is wednesday");
+    break;
+  case 2:
+    console.log("today is thursday");
+    break;
+  case 3:
+    console.log("today is friday");
+    break;
+  case 4:
+    console.log("today is saturday");
+    break;
+  case 5:
+    console.log("today is sunday");
+    break;
+  case 6:
+    console.log("today is monday");
+    break;
+  case 7:
+    console.log("today is tuesday");
+    break;
+  case 8:
+    console.log("today is wednesday");
+    break;
+  case 9:
+    console.log("today is thursday");
+    break;
+  case 10:
+    console.log("today is friday");
+    break;
+  case 11:
+    console.log("today is saturday");
+    break;
+  case 12:
+    console.log("today is sunday");
+    break;
+  case 13:
+    console.log("today is monday");
+    break;
+  case 14:
+    console.log("today is tuesday");
+    break;
+  case 15:
+    console.log("today is wednesday");
+    break;
+  case 16:
+    console.log("today is thursday");
+    break;
+  case 17:
+    console.log("today is friday");
+    break;
+  case 18:
+    console.log("today is saturday");
+    break;
+  case 19:
+    console.log("today is sunday");
+    break;
+  case 20:
+    console.log("today is monday");
+    break;
+  case 21:
+    console.log("today is tuesday");
+    break;
+  case 22:
+    console.log("today is wednesday");
+    break;
+  case 23:
+    console.log("today is thursday");
+    break;
+  case 24:
+    console.log("today is friday");
+    break;
+  case 25:
+    console.log("today is saturday");
+    break;
+  case 26:
+    console.log("today is sunday");
+    break;
+  case 27:
+    console.log("today is monday");
+    break;
+  case 28:
+    console.log("today is tuesday");
+    break;
+  case 29:
+    console.log("today is wednesday");
+    break;
+  case 30:
+    console.log("today is thursday");
+    break;
+  case 31:
+    console.log("today is friday");
+    break;
+
+  default:
+    console.log("please type date");
+    break;
 }
