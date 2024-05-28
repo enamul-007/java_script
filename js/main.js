@@ -305,10 +305,19 @@
 
 // for loop //
 
-let namta = prompt("Enter your value");
-  let covertNamta = +namta;
+// let namta = prompt("Enter your value");
+//   let covertNamta = +namta;
 
-for (let i = 1; i <= 10; i++) {
-    console.log(`${covertNamta} x ${i} = ${covertNamta * i}`);
+// for (let i = 1; i <= 10; i++) {
+//     console.log(`${covertNamta} x ${i} = ${covertNamta * i}`);
     
-  }
+// }
+
+let x = 1;
+while (x < 10) {
+  console.log(x);
+  x++;
+}
+  
+
+
