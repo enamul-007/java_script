@@ -320,23 +320,43 @@
 // }
 
 
+// function //
+
+
+// function mern(para1, para2) {
+//   let sum = para1 + para2;
+//   let substraction = para1 - para2;
+//   let multyply = para1 * para2;
+//   let division = para1 / para2;
+//   console.log(
+//     `
+//      the sum is: ${sum} 
+//      the substraction is : ${substraction} 
+//      the multyply is: ${multyply} 
+//      the division is : ${division}  `
+//   );
+
+// }
+
+// mern (3 ,5)
 
 function mern(para1, para2) {
   let sum = para1 + para2;
   let substraction = para1 - para2;
   let multyply = para1 * para2;
   let division = para1 / para2;
-  console.log(
-    `
+ 
+  return `
      the sum is: ${sum} 
      the substraction is : ${substraction} 
      the multyply is: ${multyply} 
-     the division is : ${division}  `
-  );
+     the division is : ${division}  `;
 
 }
 
-mern (3 ,5)
+let rsultIs = mern(5, 7);
+
+console.log("the rsult is :", rsultIs);
   
 
 
